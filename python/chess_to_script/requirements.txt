@@ -1,0 +1,7 @@
+cairosvg
+chess
+google-cloud-firestore
+google-cloud-pubsub
+google-cloud-storage
+google-cloud-texttospeech
+pyfarmhash

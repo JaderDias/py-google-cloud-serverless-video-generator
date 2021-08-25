@@ -1,0 +1,3 @@
+chess
+google-cloud-firestore
+pyfarmhash
