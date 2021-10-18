@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # set BILLING_ACCOUNT_ID to one of your billing accounts
-BILLING_ACCOUNT_ID=`gcloud beta billing accounts list | grep True | cut -d ' ' -f1`
+BILLING_ACCOUNT_ID=`gcloud beta billing accounts list | grep ACCOUNT_ID | cut -d ' ' -f2 | head -1`
 
 RANDOM_SEED=`tr -dc a-z0-9 </dev/urandom | head -c 10`
 PROJECT_ID=video-gen-$RANDOM_SEED
